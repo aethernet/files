@@ -19,13 +19,13 @@ data:
     - UPLOAD_FOLDER: /usr/local/files/upload
     - ALLOW_UPLOAD: 0
     - ALLOW_DELETE: 0
-  defaultDeviceType: raspberry-pi
+  defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
-    - raspberry-pi
-    - raspberry-pi2
-    - raspberrypi3
     - raspberrypi4-64
     - fincm3
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi400-64
     - intel-nuc
-    - jetson
+    - genericx86-64-ext
 version: 0.1.0
