@@ -19,7 +19,7 @@ data:
     - UPLOAD_FOLDER: /usr/local/files/upload
     - ALLOW_UPLOAD: 0
     - ALLOW_DELETE: 0
-  defaultDeviceType: raspberrypi3
+  defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi4-64
     - fincm3
