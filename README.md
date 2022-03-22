@@ -14,7 +14,7 @@ volumes:
 
 services:
   files:
-    image: ./file-transfer
+    image: bhcr.io/edwin3/files
     restart: always
     volumes:
       - "files:/files"
