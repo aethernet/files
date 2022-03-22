@@ -44,7 +44,7 @@ Configure with :
 
 # Roadmap
 
-[x] List
-[x] Download
-[] Upload
-[] Delete
+- [x] List
+- [x] Download
+- [] Upload
+- [] Delete
