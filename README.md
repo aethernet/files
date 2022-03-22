@@ -2,6 +2,8 @@
 
 Balena Block Simple File Manager
 
+Will serve the content of a directory to the web using [serve-index](https://www.npmjs.com/package/serve-index)
+
 # Usage
 
 Add this block to your `docker-compose.yml`
