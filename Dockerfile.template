@@ -1,0 +1,15 @@
+ARG BALENA_ARCH=%%BALENA_ARCH%%
+
+FROM balenalib/$BALENA_ARCH-alpine-node:latest
+
+# COPY packages.json early to optimize caching
+COPY ./package.json /usr/src/package.json
+
+WORKDIR /usr/src
+RUN npm i
+
+# copy files
+COPY . /usr/src/
+
+# Start
+CMD [ "npm", "start" ]

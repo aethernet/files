@@ -1,0 +1,28 @@
+{
+    "name": "files",
+    "version": "0.1.0",
+    "description": "A simple File manageer Block for balena",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aethernet/files.git"
+    },
+    "keywords": [
+        "filemanager",
+        "nodejs",
+        "expressjs"
+    ],
+    "author": "Edwin Joassart <edwin.joassart@balena.io>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aethernet/files/issues"
+    },
+    "homepage": "https://github.com/aethernet/files#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "serve-index": "^1.9.1"
+    }
+}

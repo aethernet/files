@@ -1,0 +1,15 @@
+version: "2"
+
+volumes:
+  files:
+
+services:
+  files:
+    build: ./
+    restart: always
+    volumes:
+      - "files:/files"
+    environment:
+      - BROWSE_FOLDER=/files
+    ports:
+      - 80
