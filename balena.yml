@@ -7,11 +7,11 @@ assets:
     type: blob.asset
     data:
       url: "https://github.com/aethernet/files"
-  # logo:
-  #   type: blob.asset
-  #   data:
-  #     url: >-
-  #       https://raw.githubusercontent.com/balenalabs/balena-sound/master/logo.png
+  logo:
+    type: blob.asset
+    data:
+      url: >-
+        https://raw.githubusercontent.com/aethernet/files/master/logo.png
 data:
   applicationEnvironmentVariables:
     - PORT: 80

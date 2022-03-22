@@ -46,5 +46,5 @@ Configure with :
 
 - [x] List
 - [x] Download
-- [] Upload
-- [] Delete
+- [ ] Upload
+- [ ] Delete
